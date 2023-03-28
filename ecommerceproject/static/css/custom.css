@@ -1,5 +1,8 @@
 body{
-font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico', cursive;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
 }
 
 /***Navbar ***/
@@ -17,6 +20,7 @@ font-family: 'Pacifico', cursive;
 .my_footer {
     background-color:#C0C0C0;
     height:60px;
+    margin-top:auto;
 }
 
 .my_footer p{
